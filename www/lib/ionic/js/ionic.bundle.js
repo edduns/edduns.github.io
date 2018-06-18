@@ -66577,7 +66577,7 @@ IonicModule
 function($animate, $timeout, $compile) {
   return {
     restrict: 'E',
-    transclude: true,
+    transclude: false,
     scope: {
       options: '=',
       slider: '='
