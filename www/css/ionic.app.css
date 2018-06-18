@@ -6790,7 +6790,7 @@ button.item.item-button-right {
  */
 .slider {
   position: relative;
-  visibility: hidden;
+  visibility: visible;
   overflow: hidden; }
 
 .slider-slides {
