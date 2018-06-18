@@ -56,7 +56,8 @@
     font-weight: bold;
 }
 .galeria{
-    width: 300px;    
+    animation: none;
+    width: 100px;    
     height:200px;
     color: white;
 }
