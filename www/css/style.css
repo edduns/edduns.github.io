@@ -95,6 +95,6 @@
     color: white;
 }
 
-.slider-slide{
-    width: 384px;;
+.slide-container{
+   position: relative;
 }
