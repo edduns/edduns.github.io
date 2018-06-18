@@ -6,6 +6,10 @@ app.controller('galeriaCtrl', function($scope, $http) {
       $scope.myData = response.data.data.gallery;
       console.log($scope.myData);  
       $scope.meuarray = $scope.myData;
+
+      $scope.$on('$ionicView.beforeEnter', function() {
+        $ionicSlideBoxDelegate.update();
+        });
   });
 })
 
