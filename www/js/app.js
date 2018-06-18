@@ -4,9 +4,9 @@ var app = angular.module('starter', ['ionic', 'starter.controllers'])
 app.controller('galeriaCtrl', function($scope, $http) {
   $http.get("https://api.salaovip.com.br/salao/66/galeria").then(function(response) {
       $scope.myData = response.data.data.gallery;
-      console.log($scope.myData);   
+      console.log($scope.myData);  
+      $scope.meuarray = $scope.myData;
   });
-  $scope.meuarray = $scope.myData;
 })
 
 .run(function($ionicPlatform) {
