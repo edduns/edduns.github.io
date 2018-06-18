@@ -1,7 +1,7 @@
 <ion-view view-title="AVEC">
   <ion-content scroll="false" class="conteudo-home">
-      <ion-slide-box class="galeria" on-slide-changed="slideHasChanged($index)" ng-controller="galeriaCtrl">
-          <ion-slide ng-repeat="item in myData">
+      <ion-slide-box class="galeria" on-slide-changed="slideHasChanged($index)">
+          <ion-slide ng-controller="galeriaCtrl" ng-repeat="item in myData">
             <div><img src="https://static.salaovip.com.br/saloes/vip/galeria/originais/{{item.foto}}"></div>
         </ion-slide-box>
           <h4>
