@@ -1,11 +1,11 @@
 <ion-view view-title="AVEC" ng-controller="galeriaCtrl">
   <ion-content scroll="false" class="conteudo-home">
-    <<ion-slide-box on-slide-changed="slideHasChanged($index)"> <!--on-slide-changed="slideHasChanged($index)"-->
-          <div class="galeria">
+    <ion-slide-box on-slide-changed="slideHasChanged($index)"> <!--on-slide-changed="slideHasChanged($index)"-->
+
             <ion-slide  ng-repeat="item in meuarray"> 
             <div><img src="https://static.salaovip.com.br/saloes/vip/galeria/originais/{{item.foto}}"></div>
-          </div>      
-       </ion-slide-box>-
+
+       </ion-slide-box>
           <h4>
               Bem vindo ao nosso aplicativo.<br />
               Acima você pode rolar as imagens e ver algumas das nossas fotos, 
