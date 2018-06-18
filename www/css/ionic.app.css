@@ -6794,7 +6794,8 @@ button.item.item-button-right {
   overflow: hidden; }
 
 .slider-slides {
-  position: absolute;
+  width: 1720px;
+  position: relative;
   height: 100%; }
 
 .slider-slide {
