@@ -6,6 +6,8 @@ app.controller('galeriaCtrl', function($scope, $http) {
       $scope.myData = response.data.data.gallery;
       console.log($scope.myData);  
       $scope.meuarray = $scope.myData;
+
+      document.getElementById("slides").style.width = "100%;";
   });
 })
 
