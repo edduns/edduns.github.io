@@ -1,0 +1,38 @@
+<ion-view view-title="AVEC" ion-con>
+  <ion-content scroll="false" class="conteudo-home">
+      <ion-slide-box class="galeria" on-slide-changed="slideHasChanged($index)">
+          <ion-slide>
+            <div class="box blue"><img src="img/slide1.jpeg"></div>
+          </ion-slide>
+          <ion-slide>
+            <div class="box yellow"><img src="img/slide2.jpeg"></div>
+          </ion-slide>
+          <ion-slide>
+            <div class="box pink"><img src="img/slide3.jpeg"></div>
+          </ion-slide>
+        </ion-slide-box>
+          <h4>
+              Bem vindo ao nosso aplicativo.<br />
+              Acima você pode rolar as imagens e ver algumas das nossas fotos, 
+              no menu você pode acessar nossos links rápidos e abaixo você pode 
+              seguir nossas redes sociais. Obrigado.
+          </h4>
+          <div>
+            <a class= "icone-links" href="https://www.facebook.com/AvecBrasil/">            
+                  <img src="img/face.png">       
+            </a>
+            <a class= "icone-links" href="https://www.linkedin.com/company/3271088/" >
+                  <img src="img/linkedin.png">
+            </a>
+            <a class= "icone-links" href="https://www.instagram.com/avecbrasil/">
+                  <img src="img/insta.png">
+            </a>         
+          </div>
+
+    <!--<ion-list>
+      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
+        {{playlist.title}}
+      </ion-item>
+    </ion-list>-->
+  </ion-content>
+</ion-view>
