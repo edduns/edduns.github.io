@@ -1,8 +1,8 @@
 <ion-view view-title="AVEC" ng-controller="galeriaCtrl" cache-view="false">
   <ion-content scroll="false" class="conteudo-home">
     <ion-slide-box class="galeria" on-slide-changed="slideHasChanged($index)"> <!--on-slide-changed="slideHasChanged($index)"-->
-            <ion-slide id="slides"  ng-repeat="item in meuarray"> 
-            <div><img src="https://static.salaovip.com.br/saloes/vip/galeria/originais/{{item.foto}}"></div>
+            <ion-slide ng-repeat="item in meuarray"> 
+            <div><img id="slides" src="https://static.salaovip.com.br/saloes/vip/galeria/originais/{{item.foto}}"></div>
        </ion-slide-box>
           <h4>
               Bem vindo ao nosso aplicativo.<br />
