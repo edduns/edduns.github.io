@@ -56,7 +56,6 @@
     font-weight: bold;
 }
 .galeria{
-    animation: none;
     width: 100%;    
     height:200px;
     color: white;
@@ -97,4 +96,5 @@
 
 .slide-container{
    position: relative;
+   width:100%;
 }
