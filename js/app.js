@@ -9,7 +9,7 @@ app.controller('galeriaCtrl', function($scope, $http, $ionicSlideBoxDelegate) {
   setTimeout(function(){
     
   $ionicSlideBoxDelegate.update();
-  },100)
+  },2000)
 })
 
 .run(function($ionicPlatform) {
