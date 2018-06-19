@@ -1,7 +1,7 @@
 <ion-view view-title="AVEC" ng-controller="galeriaCtrl" cache-view="false">
     <ion-content scroll="false" class="conteudo-home">
         <ion-slide-box style="width:100%; height: 200px;" class="galeria"> <!--on-slide-changed="slideHasChanged($index)"-->
-          <ion-slide ng-repeat="item in myData" ng-bind="myData" ng-view="active"> 
+          <ion-slide ng-repeat="item in myData" ng-if="item.foto != null" ng-view="active"> 
           <div>
             <img src="https://static.salaovip.com.br/saloes/vip/galeria/originais/{{item.foto}}"></div>
           </ion-slide>
