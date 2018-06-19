@@ -6,10 +6,10 @@ app.controller('galeriaCtrl', function($scope, $http, $ionicSlideBoxDelegate) {
       $scope.myData = response.data.data.gallery;
       console.log($scope.myData);
   });
-  //setTimeout(function(){
+  setTimeout(function(){
     
-  //$ionicSlideBoxDelegate.update();
-  //},300)
+  $ionicSlideBoxDelegate.update();
+  },300)
 })
 
 .run(function($ionicPlatform) {
